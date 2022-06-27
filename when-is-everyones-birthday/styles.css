@@ -1,0 +1,686 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: white; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: white; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: white; /* Blue */
+  }
+
+  .page {
+  width: 900px;
+  margin: 0 auto;
+  height: 0 auto;
+  }
+
+}
+
+.menu-container {
+  color: white;
+  background-color: #4c7bd9;
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.menu {
+  /* border: 1px solid #fff; */
+  width: 900px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  border: 1px solid red;
+
+}
+
+.login {
+  margin-left: 20px;
+}
+
+.header-container {
+  height: 400px;
+  background-color: white;
+  color: #5995DA;
+
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.header {
+  height: 360px;
+  width: 900px;
+
+
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+
+  background-color: #d5dfeb;
+}
+
+.photo-grid {
+  width: 900px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-wrap: row; */
+  /* flex-direction: row-reverse; */
+  background-color: #f5f6f7;
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-grid-item {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social, .subscribe {
+  display: flex;
+  z-index: 999;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.footer-item {
+
+  background-color: #bcc4cc;
+  height: 30px;
+  flex: 1;
+}
+
+.footer-one, .footer-three {
+  background-color: #90969e;
+  width: 300px;
+  flex: initial;
+  color: white;
+}
+
+.signup {
+  margin-left: auto;
+}
+
+.logo {
+  font-size: 90px; /*白中大*/
+  color: #e9ebf0;
+  background-color: #90969e;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 100%;
+
+
+}
+
+.date {
+  font-size: 27px;
+}
+
+.footer-three {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+}
+
+a {
+  color:#e4e8f0;
+  text-decoration: none;
+}
+
+.footer {
+  /*
+  height: 200px; */
+  background-color: #d5dfeb;
+  clear: both;
+
+  overflow: hidden;   /*若想要其总是显示背景颜色，首先需要把height去掉*/
+  width: 900px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  height: 1000px;
+}
+
+
+.container {
+  overflow: hidden;
+  background-color: #EAEDF0;
+}
+
+.column {
+
+  height:200px;
+  background-color: #bcc4cc;
+  width:31%;
+  float:left;
+  margin:20px 1.15%;
+  border-radius: 10px;
+  flex-wrap: wrap;
+
+}
+
+.content {
+  padding: 20px;
+}
+
+.article-image {
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  border: 2px solid gray;
+}
+
+p {
+  margin-bottom: 20px;  /*用来分段*/
+  font-style: normal;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 40px;
+  background-color: #D6E9FE;
+  display: flex;
+
+}
+
+.avatar img {
+  height: auto;
+  width: 100%;
+}
+
+.birthday img {
+  height: 150px;
+  width: 150px;
+}
+
+.username {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+
+
+}
+
+.comment {
+  margin: 15px;
+  overflow: hidden;  /* This is important */
+}
+
+.header-container1 {
+  height: 600px;
+  background-color: #D6E9FE;
+  color: #5995DA;
+
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.header1 {
+  height: 400px;
+  width: 900px;
+
+
+
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.button:link, .button:visited {
+
+  display: block;     /* 想要让 <a>的展示和div一样，必须有这个： */
+  text-decoration: none;
+
+  color:#FFF;
+  background-color: #5995DA;
+  font-weight:bold;
+  padding:20px;
+  text-align: center;
+  justify-content: flex-start;
+  border: 2px solid #5D6063;
+  width:auto;
+  height: 60px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin:0 auto;
+
+}
+
+.username:hover, .username:visited:active {
+  display: block;
+  text-align: center;
+  font-weight:bold;
+  color: red;
+  background-color: #5995DA;
+  border-radius: 10px;
+
+}
+
+.button2:link, .button2:visited {
+
+  display: block;     /* 想要让 <a>的展示和div一样，必须有这个： */
+  text-decoration: none;
+
+  color:#FFF;
+  background-color: #5995DA;
+  font-weight:bold;
+  padding:20px;
+  text-align: center;
+  justify-content: flex-start;
+  border: 2px solid #5D6063;
+  width:auto;
+  height: 60px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin:10px auto;
+
+}
+
+.button2:hover, .button2:visited:active {
+  color: #FFF;
+  border-color: #5995DA;
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #EEB75A;     /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;     /* Light yellow */
+}
+
+.holy {
+  justify-content: center;
+  display: flex;
+  width: 900px;
+}
+
+.header-container-andrea {
+  width: 900px;
+  margin: 0 auto;
+  height: 1000px;
+  background-color: #d5dfeb;
+  color: black;
+
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.header-andrea {
+  height: 100px;
+  width: 700px;
+
+
+
+
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+
+.logo-andrea {
+  font-size: 110px; /*白中大*/
+  color: #e9ebf0;
+  background-color: #accafa;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+
+.header-container-circle {
+  height: 1000px;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #d5dfeb;
+  color: black;
+
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.header-circle {
+  height: 100px;
+  width: 700px;
+
+
+
+
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+
+.logo-circle {
+  font-size: 110px; /*白中大*/
+  color: white;
+  background-color: #ebed6d;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.logo-circle-birthday {
+
+  font-size: 150px; /*白中大*/
+  color: white;
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.header-container-jake {
+  height: 1000px;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #d5dfeb;
+  color: black;
+
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.header-jake {
+  height: 100px;
+  width: 700px;
+
+
+
+
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+
+.logo-jake {
+  font-size: 110px; /*白中大*/
+  color: #e9ebf0;
+  background-color: #accafa;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.header-container-javier {
+  height: 1000px;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #d5dfeb;
+  color: black;
+
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.header-javier {
+  height: 100px;
+  width: 700px;
+
+
+
+
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+
+.logo-javier {
+  font-size: 110px; /*白中大*/
+  color: #b6c8d1;
+  background-color: #f8faf7;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.header-container-jay {
+  height: 1000px;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #d5dfeb;
+  color: black;
+
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.header-jay {
+  height: 100px;
+  width: 700px;
+
+
+
+
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+
+.logo-jay {
+  font-size: 110px; /*白中大*/
+  color: #e9ebf0;
+  background-color: #accafa;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.header-container-josh {
+  height: 1000px;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #d5dfeb;
+  color: black;
+
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.header-josh {
+  height: 100px;
+  width: 700px;
+
+
+
+
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+
+.logo-josh {
+  font-size: 110px; /*白中大*/
+  color: #e9ebf0;
+  background-color: #6d767a;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.header-container-ning {
+  height: 1000px;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #d5dfeb;
+  color: black;
+
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.header-ning {
+  height: 100px;
+  width: 700px;
+
+
+
+
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+
+.logo-ning {
+  font-size: 110px; /*白中大*/
+  color: #e9ebf0;
+  background-color: #6d767a;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.header-container-youai {
+  height: 1000px;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #d5dfeb;
+  color: black;
+
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.header-youai {
+  height: 100px;
+  width: 700px;
+
+
+
+
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+
+.logo-youai {
+  font-size: 110px; /*白中大*/
+  color: #e9ebf0;
+  background-color: #f792f2;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.birthday {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.section0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
