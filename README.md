@@ -1,4 +1,4 @@
-# 🎉 Birthday Tracker — Antalpha JK Ventures
+# 🎉 Birthday Tracker 
 
 This is one of my **first personal web development projects**, built when I first became interested in programming. The purpose of the site is simple: **to track the birthdays of all my colleagues** at Antalpha JK Ventures.
 
