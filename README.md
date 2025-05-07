@@ -46,7 +46,7 @@ The site is fully responsive using CSS `@media` queries:
 ---
 
 ## 📂 Project Structure
-
+'''
 project/
 │
 ├── index.html # Main birthday grid
@@ -61,7 +61,7 @@ project/
 │
 ├── styles.css # Custom styles for layout and design
 └── README.md # Project overview
-
+'''
 ---
 
 ## Acknowledgments
