@@ -13,6 +13,9 @@ This is one of my **first personal web development projects**, built when I firs
 
 The project displays a grid of team members, each with a photo and a link to their individual birthday page. It’s styled with custom CSS and designed to be **visually clean and responsive** across different screen sizes.
 
+![Dashboard](when-is-everyones-birthday/images/screenshotdashboard.png)
+![Dashboard](when-is-everyones-birthday/images/screenshotsubpage.png)
+
 
 ---
 
