@@ -2,15 +2,20 @@
 
 This is one of my **first personal web development projects**, built when I first became interested in programming. The purpose of the site is simple: **to track the birthdays of all my colleagues** at Antalpha JK Ventures.
 
+
 >  I created this project while learning web development through the [W3Schools Bootcamp](https://www.w3schools.com/). It was a fun and meaningful way to practice HTML, CSS, and responsive design fundamentals.
 
+
 ---
+
 
 ## 🌐 Project Overview
 
 The project displays a grid of team members, each with a photo and a link to their individual birthday page. It’s styled with custom CSS and designed to be **visually clean and responsive** across different screen sizes.
 
+
 ---
+
 
 ## Features
 
@@ -21,7 +26,9 @@ The project displays a grid of team members, each with a photo and a link to the
 -  Custom-styled avatars, headers, and layouts for each colleague
 -  Theme-specific color palette per individual for visual variety
 
+
 ---
+
 
 ## 🧰 Tech Stack
 
@@ -33,7 +40,9 @@ The project displays a grid of team members, each with a photo and a link to the
 | **Vanilla JS (optional)** | Not used in current version, but planned for interactivity |
 | **W3Schools** | Learning platform and reference during development |
 
+
 ---
+
 
 ## Responsive Design
 
@@ -43,10 +52,13 @@ The site is fully responsive using CSS `@media` queries:
 - **Tablet (401px – 960px)** – Centered content
 - **Desktop (>960px)** – Full layout with 900px container width
 
+
 ---
 
+
 ## 📂 Project Structure
-'''
+
+```
 project/
 │
 ├── index.html # Main birthday grid
@@ -61,8 +73,11 @@ project/
 │
 ├── styles.css # Custom styles for layout and design
 └── README.md # Project overview
-'''
+```
+
+
 ---
+
 
 ## Acknowledgments
 
